@@ -41,7 +41,7 @@
 	right=15mm,
 	bottom=15mm,
 }
-\renewcommand{\chaptername}{CODE}
+\renewcommand{\chaptername}{tmp}
 \renewcommand{\contentsname}{Daftar Isi}
 \renewcommand{\figurename}{Gambar}
 \renewcommand{\tablename}{Tabel}
@@ -50,7 +50,7 @@
 
 \titleformat{\chapter}[display]
 {\normalfont\bfseries}
-{CODE \thechapter \centering}{-2ex}
+{\thechapter \centering}{-2ex}
 {
 	\rule{\textwidth}{0pt}
 	\vspace{0ex}
@@ -62,15 +62,8 @@
 % BEGIN BOOK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
-\title{Ensiklopedia}
-\author{De Jierro}
-\date{2017}
-
-\maketitle
-
-\input{code_0}
-\input{code_1}
-\input{code_2}
-
+	
+	\input{tmp_a}
+	\input{tmp_b}
+	
 \end{document}
