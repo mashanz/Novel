@@ -16,18 +16,6 @@
 
 \graphicspath{ {./images} }
 
-\font\tfont=cmr12 at 14pt
-\sectionfont{\fontsize{12}{15}\selectfont}
-
-\setlength{\parindent}{2em}
-\setlength{\parskip}{0.5em}
-
-%\newcommand\blankpage{%
-%	\null
-%	\thispagestyle{empty}%
-%	\addtocounter{page}{-1}%
-%	\newpage}
-
 \hypersetup{
 	colorlinks,
 	citecolor=black,
@@ -36,10 +24,10 @@
 	urlcolor=black
 }
 \geometry{
-	left=20mm,
+	left=25mm,
 	top=20mm,
 	right=15mm,
-	bottom=15mm,
+	bottom=20mm,
 }
 \renewcommand{\chaptername}{tmp}
 \renewcommand{\contentsname}{Daftar Isi}
@@ -48,16 +36,6 @@
 \renewcommand{\listfigurename}{Daftar Gambar}
 \renewcommand{\listtablename}{Daftar Tabel}
 
-\titleformat{\chapter}[display]
-{\normalfont\bfseries}
-{\thechapter \centering}{-2ex}
-{
-	\rule{\textwidth}{0pt}
-	\vspace{0ex}
-	\centering}
-[\vspace{-5ex}\rule{\textwidth}{0pt}]
-
-\titlespacing*{\chapter}{0pt}{-50pt}{14pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BEGIN BOOK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -65,5 +43,6 @@
 	
 	\input{tmp_a}
 	\input{tmp_b}
+	\input{tmp_c}
 	
 \end{document}
